@@ -16,3 +16,5 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 It is important to add the following two statements in flutter_firestore/android/app/build.gradle
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation "io.grpc:grpc-okhttp:1.32.2"
