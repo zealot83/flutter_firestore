@@ -16,6 +16,8 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 It is important to add the following two statements in flutter_firestore/android/app/build.gradle
+
+아래 두 문장을 꼭 flutter_firestore/android/app/build.gradle에 추가해 주어야 합니다.
     
     implementation 'com.google.android.gms:play-services-location:18.0.0'
     
